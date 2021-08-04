@@ -10,12 +10,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
+.btn {
+  padding: 5px 20px;
+  background: #ab7fea;
+  border-radius: 20px;
+  border: none;
+}
 .grid {
   width: 300px;
   height: 300px;
-  border: solid #00ea01 1px;
+  border: solid #ab7fea 1px;
   display: flex;
   flex-wrap: wrap;
   background-color: black;
@@ -27,9 +38,12 @@ body {
 }
 
 .invader {
-  background-image: url("./assets/faceALIEN.png");
+  background-image: url("./assets/pngegg.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+.results {
+  color: #ab7fea;
 }
 
 .shooter {
