@@ -1,7 +1,6 @@
 const grid = document.querySelector(".grid");
 const resultsDisplay = document.querySelector(".results");
 const button = document.querySelector(".btn");
-console.log(button);
 
 let currentShooterIndex = 202;
 let width = 15;
