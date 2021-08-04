@@ -1,5 +1,5 @@
 body {
-  background: url("./assets/949049.png");
+  background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
@@ -15,7 +15,7 @@ body {
 .grid {
   width: 300px;
   height: 300px;
-  border: solid black 1px;
+  border: solid #00ea01 1px;
   display: flex;
   flex-wrap: wrap;
   background-color: black;
@@ -27,18 +27,25 @@ body {
 }
 
 .invader {
-  background-color: green;
-  border-radius: 10px;
+  background-image: url("./assets/faceALIEN.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .shooter {
-  background-color: gray;
+  background-image: url("./assets/nave.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .laser {
-  background-color: blue;
+  background-image: url("./assets/laser.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .boom {
-  background-color: red;
+  background-image: url("./assets/explosion.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
